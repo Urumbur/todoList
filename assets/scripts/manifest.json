@@ -1,0 +1,22 @@
+{
+    "short_name" : "Lista zadań",
+    "name" : "Lista zadań",
+    "display" : "standalone",
+    "background_color" : "#CFCED1",
+    "theme_color" : "#CFCED1",
+    "icon" : [
+        {
+            "src" : "../assets/img/icon48.svg",
+            "sizes" : "48x48"
+        },
+        {
+            "src" : "../assets/img/icon96.svg",
+            "sizes" : "96x96"
+        },
+        {
+            "src" : "../assets/img/icon192.svg",
+            "sizes" : "192x192"
+        }
+    ],
+    "start_url" : ""
+}

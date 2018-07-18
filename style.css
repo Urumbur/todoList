@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext');
+
+body {
+    margin: 0;
+    padding: 0;   
+    background-color: #E0E0E0;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    text-align: center; 
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+.new_task {
+    display: flex;
+    justify-content: center;
+}
+
+#new_form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    background-color: #CFCED1;
+    padding: 2em;
+    border-radius: 5px;
+}
+@media only screen and (max-width:800px) {
+    #new_form {
+        width: 100%;
+    }
+}
+
+label, textarea, input {
+    display: block;
+    margin: 0.5em 0 0.5em 0;
+}
+
+input[type="text"], textarea {
+    padding: 1em 1em;
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.new_task_title {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.new_task_header {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 1em 0 1em 2em;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #45C200;
+    color: #fff;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close_btn {
+    height: 100%;
+    background-color: #FF2105;
+    color: #fff;
+    width: 5em;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.single_task {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 50%;
+    margin: 1em auto;
+    text-align: left;
+}
+@media only screen and (max-width:800px) {
+    .single_task {
+        width: 100%;
+    }
+}
+
+.task_name {
+    width: 100%;
+    margin: 0;
+    padding: 1em 0 1em 2em;
+    position: relative;
+}
+.single_task.checked >.task_name:before {
+    content: "";
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 15px;
+    left: 15px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.checked {
+    text-decoration: line-through;
+    background-color: gray;
+    color: #fff;
+}
