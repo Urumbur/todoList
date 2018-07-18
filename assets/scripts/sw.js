@@ -6,8 +6,8 @@
 //   'assets/scripts/newscript.js',
 // ];
 
-// self.addEventListener('install', (event) => {
-//     event.waitUntil(caches.open(CACHE_NAME).then((cache) => {
-//         return cache.addAll(urlsToCache);
-//     }));
-// });
+self.addEventListener('install', (event) => {
+    // event.waitUntil(caches.open(CACHE_NAME).then((cache) => {
+    //     return cache.addAll(urlsToCache);
+    // }));
+});
