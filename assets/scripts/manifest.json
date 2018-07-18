@@ -16,6 +16,10 @@
         {
             "src" : "../assets/img/icon192.svg",
             "sizes" : "192x192"
+        },
+        {
+            "src" : "../assets/img/icon512.svg",
+            "sizes" : "512x512"
         }
     ],
     "start_url" : "/?utm_source=homescreen)"
