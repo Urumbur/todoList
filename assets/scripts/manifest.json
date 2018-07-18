@@ -2,9 +2,10 @@
     "short_name" : "Lista zadań",
     "name" : "Lista zadań",
     "display" : "standalone",
+    "orientation": "portrait",
     "background_color" : "#CFCED1",
     "theme_color" : "#CFCED1",
-    "icon" : [
+    "icons" : [
         {
             "src" : "../assets/img/icon48.svg",
             "sizes" : "48x48"
@@ -22,5 +23,5 @@
             "sizes" : "512x512"
         }
     ],
-    "start_url" : "/?utm_source=homescreen)"
+    "start_url" : "/https://urumbur.github.io/todoList/"
 }
