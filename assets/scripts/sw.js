@@ -1,8 +1,8 @@
 const CACHE_NAME = 'app-cache';
  
 const urlsToCache = [
-  'index.html',
-  'style.css',
+  '/index.html',
+  '/style.css',
   '/assets/scripts/newscript.js',
 ];
 
