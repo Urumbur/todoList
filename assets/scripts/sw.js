@@ -1,9 +1,9 @@
 const CACHE_NAME = 'app-cache';
  
 const urlsToCache = [
-  '../todoList/index.html',
-  '../todoList/style.css',
-  '../todoList/assets/scripts/newscript.js',
+  '../index.html',
+  '../style.css',
+  '../assets/scripts/newscript.js',
 ];
 
 self.addEventListener('install', (event) => {
