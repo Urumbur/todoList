@@ -5,7 +5,22 @@
     "orientation": "portrait",
     "background_color" : "#CFCED1",
     "theme_color" : "#CFCED1",
-    "icons" : [   
+    "icons" : [
+        {
+            "src" : "./assets/img/icon48.png",
+            "type" : "image/png",
+            "sizes" : "48x48"
+        },
+        {
+            "src" : "./assets/img/icon96.png",
+            "type" : "image/png",
+            "sizes" : "96x96"
+        }, 
+        {
+            "src" : "./assets/img/icon192.png",
+            "type" : "image/png",
+            "sizes" : "192x192"
+        },     
         {
             "src" : "./assets/img/icon512.png",
             "type" : "image/png",
