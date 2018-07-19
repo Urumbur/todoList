@@ -88,7 +88,7 @@ input[type="text"], textarea {
     align-items: center;
 }
 .btn:hover {
-    background-color: #0ACF41;
+    background-color: #037502;
 }
 
 .close_btn {
@@ -102,7 +102,7 @@ input[type="text"], textarea {
     cursor: pointer;
 }
 .close_btn:hover {
-    background-color: #E80721;
+    background-color: #AB2105;
 }
 
 .single_task {
