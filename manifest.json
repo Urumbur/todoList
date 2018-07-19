@@ -1,16 +1,14 @@
 {
-    "short_name" : "Lista zadań",
-    "name" : "Lista zadań",
-    "display" : "standalone",
+    "short_name": "Lista zadań",
+    "name": "Lista zadań",
+    "display": "standalone",
     "orientation": "portrait",
-    "background_color" : "#CFCED1",
-    "theme_color" : "#CFCED1",
-    "icons" : [
-        {
-            "src" : "./assets/img/icon512x512.png",
-            "type" : "image/png",
-            "sizes" : "512x512"
-        }
-    ],
-    "start_url" : "./index.html"
+    "background_color": "#CFCED1",
+    "theme_color": "#CFCED1",
+    "icons": [{
+        "src": "./assets/img/icon512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }],
+    "start_url": "./index.html"
 }
