@@ -7,8 +7,7 @@
     "theme_color" : "#CFCED1",
     "icons" : [
         {
-            "src" : "./assets/img/icon512.png",
-            "type" : "image/png",
+            "src" : "./assets/img/icon512.svg",
             "sizes" : "48x48 96x96 192x192 512x512"
         }
     ],
