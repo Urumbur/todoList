@@ -14,10 +14,7 @@
             "src" : "../img/icon96.svg",
             "sizes" : "96x96"
         },
-        {
-            "src" : "../img/icon192.svg",
-            "sizes" : "192x192"
-        },
+        
         {
             "src" : "../img/icon192.png",
             "type" : "image/png",
