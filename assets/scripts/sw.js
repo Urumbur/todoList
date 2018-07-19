@@ -3,8 +3,7 @@ const CACHE_NAME = 'app-cache';
 const urlsToCache = [
   '../../index.html',
   '../../style.css',
-  './newscript.js',
-  './sw.js'
+  './newscript.js'
 ];
 
 self.addEventListener('install', (event) => {
