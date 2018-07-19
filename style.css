@@ -87,6 +87,9 @@ input[type="text"], textarea {
     justify-content: center;
     align-items: center;
 }
+.btn:hover {
+    background-color: #0ACF41;
+}
 
 .close_btn {
     height: 100%;
@@ -97,6 +100,9 @@ input[type="text"], textarea {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     cursor: pointer;
+}
+.close_btn:hover {
+    background-color: #E80721;
 }
 
 .single_task {
